@@ -1,0 +1,29 @@
+\BOOKMARK [1][-]{section*.2}{List of Figures}{}% 1
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Biological Background}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Key Terms}{subsection.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{Trinity}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Inchworm}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Phases}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Parsing}{subsection.2.1}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Sorting}{subsection.2.1}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Pruning}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Assembly}{subsection.2.1}% 11
+\BOOKMARK [1][-]{section.3}{Performance Analysis}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Data-sets}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Hardware \046 Software Environment}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.1}{HPC File Systems}{subsection.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Analysis of Inchworm}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Description of algorithms and bottlenecks}{subsection.3.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Optimization techniques}{subsection.3.3}% 18
+\BOOKMARK [1][-]{section.4}{Performance Optimization}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Overview of Optimized Inchworm}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Parsing}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Pruning}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.4}{Assembly}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Master-Slave Approach}{subsection.4.4}% 24
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Source Code Changes}{subsection.4.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Benefits}{subsection.4.4}% 26
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 27
+\BOOKMARK [2][-]{subsection.5.1}{Future Work}{section.5}% 28
+\BOOKMARK [1][-]{section*.68}{References}{}% 29

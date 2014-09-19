@@ -1,0 +1,4 @@
+BachelorArbeit
+==============
+
+Parallelisation of Inchworm
