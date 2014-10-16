@@ -40,6 +40,7 @@
 \RequirePackage{setspace}
 
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Provide Options
 
@@ -343,7 +344,7 @@
 \fi
 
 \if@mathseminar%
-\renewcommand{\titleheader}[0]{Seminar ``Programmier- und Compilertechniken im 
+\renewcommand{\titleheader}[0]{Seminar ``Programmier- und Compilertechniken im
 Wissenschaftlichen Hochleistungsrechnen''}
 \fi
 
@@ -446,15 +447,15 @@ Wissenschaftlichen Hochleistungsrechnen''}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Option "german" bearbeiten
 
-%Neudeutsch laden
+% Sprach-Dateien
 \if@german%
-\RequirePackage{ngerman}%
+  \RequirePackage[american,main=ngerman]{babel}
+\else
+  \RequirePackage[main=american,ngerman]{babel}
 \fi
 
-%Da man bei Neudeutsch ebenfalls Zitate in Altdeutsch haben wird,
-%Wird das german-Paket auf jeden Fall benoetigt.
+
 \if@german%
-  \RequirePackage{german}%
   \def\@copyrightlabel{Erkl\"{a}rungen zum Urheberrecht}
   \renewcommand\copyrightinfo[0]{%
     \cleardoublepage
@@ -495,7 +496,7 @@ Wissenschaftlichen Hochleistungsrechnen''}
 \fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
+
 % Format der Eingabedateien; Standard: latin1
 \if@utf
 \RequirePackage[utf8]{inputenc}
@@ -523,7 +524,7 @@ Wissenschaftlichen Hochleistungsrechnen''}
   % Randbreite definieren
   \def\@nomenclmargin{3cm}
   \newcommand\setnomenclmargin[1]{\def\@nomenclmargin{#1}}
-  
+
   % index erstellen
   \makenomenclature
 
@@ -824,9 +825,9 @@ Wissenschaftlichen Hochleistungsrechnen''}
 	
 	    Hiermit erkl\"{a}re ich, dass ich die von mir am heutigen Tag dem Pr\"{u}fungsausschuss der Fakult\"{a}t \@faculty~eingereichte \@doctype~zum Thema:
 	     \begin{center}
-	     \textit{\@title} 
+	     \textit{\@title}
 	     \end{center}
-	     
+	
 	     vollkommen selbstst\"{a}ndig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt sowie Zitate kenntlich gemacht habe.\\[2cm]
 	
 	    Dresden, den \@date\\[3cm]
@@ -919,7 +920,7 @@ Wissenschaftlichen Hochleistungsrechnen''}
 	    \if@twoside
 	      \fancyhead[LO]{\rightmark}
 	      \fancyhead[RE]{\leftmark}
-	    \else   
+	    \else
 	      \fancyhead[L]{\leftmark}
 	    \fi
 	  \fi
@@ -988,16 +989,16 @@ Wissenschaftlichen Hochleistungsrechnen''}
 				
 				\vspace{20mm}
 			          \titleheader\\[1.5cm]
-				\begin{large}  
+				\begin{large}
 					 \vspace{18mm}
 					 vorgelegt an der\\
 					 Technischen Universit\"at Dresden\\
 					 Fakult\"{a}t \@faculty
-					 
+					
 					 \vspace{12mm}
-					 
+					
 					 eingereicht von
-					 
+					
 					 \vspace{6mm}
 				
 					  {\textbf{\@author}}\\\@subauthor\\[2cm]
@@ -1006,7 +1007,7 @@ Wissenschaftlichen Hochleistungsrechnen''}
 						Betreuender Hochschullehrer: \@gutachter\\[2cm]
 						\bigskip
 					% \textbf{Tag der Verteidigung:} 16. Dezember 2008
-					% 
+					%
 					% \bigskip
 						 Dresden, \@date\\[2cm]
 				\end{large}
@@ -1106,7 +1107,7 @@ Wissenschaftlichen Hochleistungsrechnen''}
 		    \if@twoside
 		      \fancyhead[LO]{\rightmark}
 		      \fancyhead[RE]{\leftmark}
-		    \else   
+		    \else
 		      \fancyhead[L]{\leftmark}
 		    \fi
 		  \fi
